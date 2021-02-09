@@ -1,16 +1,16 @@
 {
-  "name": "bespoke-support/smartwaste",
-  "description": "BRE SmartWaste API library",
+  "name": "blucreation/smartwaste",
+  "description": "SmartWaste API library",
   "license": "MIT",
   "minimum-stability": "RC",
   "autoload": {
     "psr-4": {
-      "BespokeSupport\\SmartWaste\\":"src"
+      "BluCreation\\SmartWaste\\":"src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BespokeSupport\\SmartWasteTests\\":"tests"
+      "BluCreation\\SmartWasteTests\\":"tests"
     }
   },
   "require": {

@@ -1,12 +1,12 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Method;
+namespace Blucreation\SmartWasteTests\Method;
 
-use BespokeSupport\SmartWaste\Method\GetCompanies;
-use BespokeSupport\SmartWaste\SmartWaste;
-use BespokeSupport\SmartWaste\SmartWasteRoutes;
-use BespokeSupport\SmartWasteTests\Convert\ConvertEntity;
-use BespokeSupport\SmartWasteTests\TestHelper;
+use Blucreation\SmartWaste\Method\GetCompanies;
+use Blucreation\SmartWaste\SmartWaste;
+use Blucreation\SmartWaste\SmartWasteRoutes;
+use Blucreation\SmartWasteTests\Convert\ConvertEntity;
+use Blucreation\SmartWasteTests\TestHelper;
 use PHPUnit\Framework\TestCase;
 
 class GetCompaniesTest extends TestCase

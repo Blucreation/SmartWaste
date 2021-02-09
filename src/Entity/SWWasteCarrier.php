@@ -1,10 +1,10 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Entity;
+namespace Blucreation\SmartWaste\Entity;
 
 /**
  * Class SWWasteCarrier
- * @package BespokeSupport\SmartWaste\Entity
+ * @package Blucreation\SmartWaste\Entity
  */
 class SWWasteCarrier
 {

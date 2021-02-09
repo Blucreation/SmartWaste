@@ -1,12 +1,12 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Method;
+namespace Blucreation\SmartWasteTests\Method;
 
-use BespokeSupport\SmartWaste\Method\AssignWasteDestinationToProject;
-use BespokeSupport\SmartWaste\SmartWaste;
-use BespokeSupport\SmartWaste\SmartWasteRoutes;
-use BespokeSupport\SmartWasteTests\Convert\ConvertEntity;
-use BespokeSupport\SmartWasteTests\TestHelper;
+use Blucreation\SmartWaste\Method\AssignWasteDestinationToProject;
+use Blucreation\SmartWaste\SmartWaste;
+use Blucreation\SmartWaste\SmartWasteRoutes;
+use Blucreation\SmartWasteTests\Convert\ConvertEntity;
+use Blucreation\SmartWasteTests\TestHelper;
 use PHPUnit\Framework\TestCase;
 
 class AssignWasteDestinationToProjectTest extends TestCase

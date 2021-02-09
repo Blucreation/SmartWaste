@@ -7,8 +7,8 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new \BespokeSupport\SmartWaste\Command\SmartWasteAuthTokenCommand());
-$application->add(new \BespokeSupport\SmartWaste\Command\SmartWasteGenerateApiCommand());
+$application->add(new \Blucreation\SmartWaste\Command\SmartWasteAuthTokenCommand());
+$application->add(new \Blucreation\SmartWaste\Command\SmartWasteGenerateApiCommand());
 
 try {
     $application->run();

@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Entity;
+namespace Blucreation\SmartWasteTests\Entity;
 
 trait TraitTestEntityBase
 {

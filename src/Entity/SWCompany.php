@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Entity;
+namespace Blucreation\SmartWaste\Entity;
 
 class SWCompany
 {

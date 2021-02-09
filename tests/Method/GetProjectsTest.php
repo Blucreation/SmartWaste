@@ -1,11 +1,11 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Method;
+namespace Blucreation\SmartWasteTests\Method;
 
-use BespokeSupport\SmartWaste\Method\GetProjects;
-use BespokeSupport\SmartWaste\SmartWasteRoutes;
-use BespokeSupport\SmartWasteTests\Convert\ConvertEntity;
-use BespokeSupport\SmartWasteTests\TestHelper;
+use Blucreation\SmartWaste\Method\GetProjects;
+use Blucreation\SmartWaste\SmartWasteRoutes;
+use Blucreation\SmartWasteTests\Convert\ConvertEntity;
+use Blucreation\SmartWasteTests\TestHelper;
 use PHPUnit\Framework\TestCase;
 
 class GetProjectsTest extends TestCase
@@ -39,7 +39,7 @@ class GetProjectsTest extends TestCase
 
         $client = TestHelper::clientSuccess(json_decode($res));
 
-        $ret = \BespokeSupport\SmartWaste\SmartWaste::call(TestHelper::credComplete(), $uri, [], $client);
+        $ret = \Blucreation\SmartWaste\SmartWaste::call(TestHelper::credComplete(), $uri, [], $client);
 
         $this->assertCount(2, $ret);
 

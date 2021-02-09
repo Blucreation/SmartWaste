@@ -1,12 +1,12 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Method;
+namespace Blucreation\SmartWasteTests\Method;
 
-use BespokeSupport\SmartWaste\Method\Authenticate;
-use BespokeSupport\SmartWaste\SmartWaste;
-use BespokeSupport\SmartWaste\SmartWasteCredentials;
-use BespokeSupport\SmartWaste\SmartWasteRoutes;
-use BespokeSupport\SmartWasteTests\TestHelper;
+use Blucreation\SmartWaste\Method\Authenticate;
+use Blucreation\SmartWaste\SmartWaste;
+use Blucreation\SmartWaste\SmartWasteCredentials;
+use Blucreation\SmartWaste\SmartWasteRoutes;
+use Blucreation\SmartWasteTests\TestHelper;
 use PHPUnit\Framework\TestCase;
 
 class AuthenticateTest extends TestCase

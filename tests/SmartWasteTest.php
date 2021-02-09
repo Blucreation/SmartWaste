@@ -1,8 +1,8 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests;
+namespace Blucreation\SmartWasteTests;
 
-use BespokeSupport\SmartWaste\SmartWaste;
+use Blucreation\SmartWaste\SmartWaste;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
 

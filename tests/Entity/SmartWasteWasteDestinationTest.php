@@ -1,11 +1,11 @@
 <?php
 
-use BespokeSupport\SmartWaste\Entity\SWWasteDestination;
+use Blucreation\SmartWaste\Entity\SWWasteDestination;
 use PHPUnit\Framework\TestCase;
 
 class SmartWasteWasteDestinationTest extends TestCase
 {
-    use \BespokeSupport\SmartWasteTests\Entity\TraitTestEntityBase;
+    use \Blucreation\SmartWasteTests\Entity\TraitTestEntityBase;
 
     public function test__toString()
     {

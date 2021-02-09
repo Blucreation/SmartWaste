@@ -1,9 +1,9 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Entity;
+namespace Blucreation\SmartWasteTests\Entity;
 
-use BespokeSupport\SmartWaste\Entity\SWWasteItem;
-use BespokeSupport\SmartWasteTests\Convert\ConvertEntity;
+use Blucreation\SmartWaste\Entity\SWWasteItem;
+use Blucreation\SmartWasteTests\Convert\ConvertEntity;
 use PHPUnit\Framework\TestCase;
 
 class SmartWasteWasteItemTest extends TestCase

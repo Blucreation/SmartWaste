@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Convert;
+namespace Blucreation\SmartWaste\Convert;
 
 interface SmartWasteInterface
 {

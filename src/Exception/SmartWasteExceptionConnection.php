@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Exception;
+namespace Blucreation\SmartWaste\Exception;
 
 class SmartWasteExceptionConnection extends \RuntimeException
 {

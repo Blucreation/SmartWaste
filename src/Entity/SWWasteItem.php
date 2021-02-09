@@ -1,12 +1,12 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Entity;
+namespace Blucreation\SmartWaste\Entity;
 
-use BespokeSupport\SmartWaste\Convert\SmartWasteInterface;
+use Blucreation\SmartWaste\Convert\SmartWasteInterface;
 
 /**
  * Class SWWasteItem
- * @package BespokeSupport\SmartWaste\Entity
+ * @package Blucreation\SmartWaste\Entity
  */
 class SWWasteItem
 {

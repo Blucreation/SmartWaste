@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste;
+namespace Blucreation\SmartWaste;
 
 class SmartWasteRoutes
 {

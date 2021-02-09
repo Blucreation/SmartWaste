@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Parse;
+namespace Blucreation\SmartWaste\Parse;
 
 class ParseAssignWasteCarrierToProject
 {

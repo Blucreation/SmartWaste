@@ -1,8 +1,8 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests\Convert;
+namespace Blucreation\SmartWasteTests\Convert;
 
-use BespokeSupport\SmartWaste\Convert\SmartWasteInterface;
+use Blucreation\SmartWaste\Convert\SmartWasteInterface;
 
 class ConvertEntity implements SmartWasteInterface
 {

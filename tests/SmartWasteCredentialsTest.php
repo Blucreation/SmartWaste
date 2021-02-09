@@ -1,6 +1,6 @@
 <?php
 
-use BespokeSupport\SmartWaste\SmartWasteCredentials;
+use Blucreation\SmartWaste\SmartWasteCredentials;
 use PHPUnit\Framework\TestCase;
 
 class SmartWasteCredentialsTest extends TestCase

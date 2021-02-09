@@ -1,9 +1,9 @@
 <?php
 
-namespace BespokeSupport\SmartWaste;
+namespace Blucreation\SmartWaste;
 
-use BespokeSupport\SmartWaste\Method\SaveWasteCarrierToCompany;
-use BespokeSupport\SmartWaste\Method\SaveWasteDestinationToCompany;
+use Blucreation\SmartWaste\Method\SaveWasteCarrierToCompany;
+use Blucreation\SmartWaste\Method\SaveWasteDestinationToCompany;
 use GuzzleHttp\Client;
 
 class SmartWasteCreate

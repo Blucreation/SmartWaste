@@ -1,8 +1,8 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Method;
+namespace Blucreation\SmartWaste\Method;
 
-use BespokeSupport\SmartWaste\Base\BaseMethod;
+use Blucreation\SmartWaste\Base\BaseMethod;
 
 /**
  * @property mixed username 

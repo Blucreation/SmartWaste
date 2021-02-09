@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Command;
+namespace Blucreation\SmartWaste\Command;
 
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
@@ -122,9 +122,9 @@ class SmartWasteGenerateApiCommand extends Command
             $classStr = <<<PHP
 <?php
 
-namespace BespokeSupport\SmartWaste\Method;
+namespace Blucreation\SmartWaste\Method;
 
-use BespokeSupport\SmartWaste\Base\BaseMethod;
+use Blucreation\SmartWaste\Base\BaseMethod;
 
 /**
 $properties */
@@ -163,14 +163,14 @@ PHP;
         $uses = '';
         array_walk($classes, function($k) use (&$apiClassMethods, &$uses) {
             $class = ucwords($k);
-            $uses .= "use BespokeSupport\SmartWaste\Method\\$class;\n";
+            $uses .= "use Blucreation\SmartWaste\Method\\$class;\n";
             $apiClassMethods .= " * @method static $k(SmartWasteCredentials \$credentials, $class \$obj, Client \$client = null) \n";
         });
 
         $classStr = <<<PHP
 <?php
 
-namespace BespokeSupport\SmartWaste;
+namespace Blucreation\SmartWaste;
 
 $uses
 use GuzzleHttp\Client;
@@ -216,7 +216,7 @@ PHP;
         $classStr = <<<PHP
 <?php
 
-namespace BespokeSupport\SmartWaste;
+namespace Blucreation\SmartWaste;
 
 class SmartWasteRoutes
 {

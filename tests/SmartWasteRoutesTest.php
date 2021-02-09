@@ -1,6 +1,6 @@
 <?php
 
-use BespokeSupport\SmartWaste\SmartWasteRoutes;
+use Blucreation\SmartWaste\SmartWasteRoutes;
 use PHPUnit\Framework\TestCase;
 
 class SmartWasteRoutesTest extends TestCase
@@ -15,6 +15,6 @@ class SmartWasteRoutesTest extends TestCase
      */
     public function test__toUrlRelativeError()
     {
-        SmartWasteRoutes::toUrlRelative(new BespokeSupport\SmartWaste\SmartWaste());
+        SmartWasteRoutes::toUrlRelative(new Blucreation\SmartWaste\SmartWaste());
     }
 }

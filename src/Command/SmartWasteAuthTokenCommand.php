@@ -1,9 +1,9 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Command;
+namespace Blucreation\SmartWaste\Command;
 
-use BespokeSupport\SmartWaste\SmartWaste;
-use BespokeSupport\SmartWaste\SmartWasteCredentials;
+use Blucreation\SmartWaste\SmartWaste;
+use Blucreation\SmartWaste\SmartWasteCredentials;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

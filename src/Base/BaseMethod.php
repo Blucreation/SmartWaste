@@ -1,6 +1,6 @@
 <?php
 
-namespace BespokeSupport\SmartWaste\Base;
+namespace Blucreation\SmartWaste\Base;
 
 class BaseMethod
 {

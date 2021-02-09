@@ -1,8 +1,8 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests;
+namespace Blucreation\SmartWasteTests;
 
-use BespokeSupport\SmartWaste\SmartWasteCredentials;
+use Blucreation\SmartWaste\SmartWasteCredentials;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\Handler\MockHandler;

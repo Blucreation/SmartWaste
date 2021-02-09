@@ -1,12 +1,12 @@
 <?php
 
-namespace BespokeSupport\SmartWasteTests;
+namespace Blucreation\SmartWasteTests;
 
-use BespokeSupport\SmartWaste\Entity\SWWasteCarrier;
-use BespokeSupport\SmartWaste\Entity\SWWasteDestination;
-use BespokeSupport\SmartWaste\Method\SaveWasteCarrierToCompany;
-use BespokeSupport\SmartWaste\Method\SaveWasteDestinationToCompany;
-use BespokeSupport\SmartWaste\SmartWasteCreate;
+use Blucreation\SmartWaste\Entity\SWWasteCarrier;
+use Blucreation\SmartWaste\Entity\SWWasteDestination;
+use Blucreation\SmartWaste\Method\SaveWasteCarrierToCompany;
+use Blucreation\SmartWaste\Method\SaveWasteDestinationToCompany;
+use Blucreation\SmartWaste\SmartWasteCreate;
 use PHPUnit\Framework\TestCase;
 
 class SmartWasteCreateTest extends TestCase

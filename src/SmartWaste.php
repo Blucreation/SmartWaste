@@ -1,9 +1,9 @@
 <?php
 
-namespace BespokeSupport\SmartWaste;
+namespace Blucreation\SmartWaste;
 
-use BespokeSupport\SmartWaste\Exception\SmartWasteExceptionAuthorisation;
-use BespokeSupport\SmartWaste\Exception\SmartWasteExceptionConnection;
+use Blucreation\SmartWaste\Exception\SmartWasteExceptionAuthorisation;
+use Blucreation\SmartWaste\Exception\SmartWasteExceptionConnection;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Response;
@@ -12,7 +12,7 @@ use RuntimeException;
 
 /**
  * Class SmartWaste
- * @package BespokeSupport\SmartWaste
+ * @package Blucreation\SmartWaste
  *
  * Url : https://www.smartwaste.co.uk/smarter/login.jsp
  * Docs : http://api.smartwaste.co.uk
@@ -102,7 +102,7 @@ class SmartWaste
 
         $endpointClass = ucwords($endpoint);
 
-        $parseClass = "\\BespokeSupport\\SmartWaste\\Parse\\Parse$endpointClass";
+        $parseClass = "\\Blucreation\\SmartWaste\\Parse\\Parse$endpointClass";
 
         if (class_exists($parseClass) && method_exists($parseClass, 'parse')) {
             return $parseClass::parse($json);
@@ -119,7 +119,7 @@ class SmartWaste
     {
         $endpointClass = SmartWasteRoutes::toUrlRelative($endpointObj);
 
-        $parseClass = "\\BespokeSupport\\SmartWaste\\Parse\\Parse$endpointClass";
+        $parseClass = "\\Blucreation\\SmartWaste\\Parse\\Parse$endpointClass";
 
         if (class_exists($parseClass) && method_exists($parseClass, 'params')) {
             return $parseClass::params($endpointObj);

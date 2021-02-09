@@ -1,10 +1,10 @@
 <?php
 
-namespace BespokeSupport\SmartWaste;
+namespace Blucreation\SmartWaste;
 
 /**
  * Class SmartWasteCredentials
- * @package BespokeSupport\SmartWaste
+ * @package Blucreation\SmartWaste
  */
 class SmartWasteCredentials
 {
